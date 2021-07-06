@@ -18,10 +18,8 @@ def translate(text):
     return translator.translate(text)
 
 
-def translate_md(md_file, translated_md_file=None):
+def translate_md(md_file, translated_md_file):
     """Translate md file."""
-    if translated_md_file is None:
-        translated_md_file = md_file.replace('.md', '.si.md')
     lines = filex.read(md_file).split('\n')
     lines_with_sentences = list(map(nltk.sent_tokenize, lines))
 
@@ -43,5 +41,5 @@ def translate_md(md_file, translated_md_file=None):
 if __name__ == '__main__':
     translate_md(
         'src/writing/assets/test.md',
-        # '/tmp/test.translated.md',
+        '/tmp/test.translated.md',
     )

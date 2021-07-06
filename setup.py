@@ -41,5 +41,6 @@ setuptools.setup(
         'nltk',
         'utils-nuuuwan',
         'deep_translator',
+        'pyttsx3',
     ],
 )
