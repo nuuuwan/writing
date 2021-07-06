@@ -4,12 +4,16 @@ import logging
 
 import pyttsx3
 
+from utils import timex
+from utils.cache import cache
+
 from writing.docjson import md_to_docjson
 
 log = logging.getLogger('writing.audio')
 logging.basicConfig(level=logging.INFO)
 
 
+@cache('writing.audio', timex.SECONDS_IN.YEAR)
 def md_to_audio(md_file, audio_file_base):
     """Convert MD to audio."""
     docjson = md_to_docjson(md_file)
@@ -22,8 +26,16 @@ def md_to_audio(md_file, audio_file_base):
 
         if tag == 'p':
             engine.setProperty('rate', 225)
+            engine.setProperty(
+                'voice',
+                'com.apple.speech.synthesis.voice.Kate',
+            )
         else:
             engine.setProperty('rate', 200)
+            engine.setProperty(
+                'voice',
+                'com.apple.speech.synthesis.voice.Daniel',
+            )
 
         audio_file = '%s.%04d.mp3' % (audio_file_base, i)
         log.info('Saving to %s', audio_file)
