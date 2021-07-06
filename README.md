@@ -4,6 +4,7 @@
 ## Release History
 
 ### 1.0.0 (PRE-RELEASE ONLY)
+* Translate text and translate MD
 
 ...
 

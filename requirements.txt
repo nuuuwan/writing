@@ -1,4 +1,2 @@
-bs4
-selenium
-tweepy
+nltk
 utils-nuuuwan
