@@ -40,5 +40,6 @@ setuptools.setup(
     install_requires=[
         'nltk',
         'utils-nuuuwan',
+        'deep_translator',
     ],
 )
