@@ -17,7 +17,6 @@ class TestCase(unittest.TestCase):
                 'The boy stood on the burning deck.',
                 'පිරිමි ළමයා දැවෙන තට්ටුව මත සිටගෙන සිටියේය.',
             ],
-            ['The 4th of July, 1776', '1776 ජූලි 4 වන දින'],
             ['Programming Language', 'ක්‍රමලේඛන භාෂාව'],
         ]:
             self.assertEqual(
