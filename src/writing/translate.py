@@ -1,9 +1,9 @@
 """Implements translate."""
 
 import logging
+
 import nltk
 from deep_translator import GoogleTranslator
-
 from utils import filex, timex
 from utils.cache import cache
 
@@ -30,16 +30,20 @@ def translate_md(md_file, translated_md_file):
             translated_line_sentences.append(translate(sentence))
         translated_lines_with_sentences.append(translated_line_sentences)
 
-    translated_lines = list(map(
-        lambda translated_line_sentences: ' '.join(translated_line_sentences),
-        translated_lines_with_sentences,
-    ))
+    translated_lines = list(
+        map(
+            lambda translated_line_sentences: ' '.join(
+                translated_line_sentences
+            ),
+            translated_lines_with_sentences,
+        )
+    )
     filex.write(translated_md_file, '\n'.join(translated_lines))
     log.info('Translated %s as %s', md_file, translated_md_file)
 
 
 if __name__ == '__main__':
     translate_md(
-        'src/writing/assets/test.md',
-        '/tmp/test.translated.md',
+        'src/writing/assets/the-solutionists-manifesto.md',
+        '/tmp/the-solutionists-manifesto.si.md',
     )

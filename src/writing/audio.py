@@ -3,7 +3,6 @@
 import logging
 
 import pyttsx3
-
 from utils import timex
 from utils.cache import cache
 

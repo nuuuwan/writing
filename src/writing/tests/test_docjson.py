@@ -16,14 +16,14 @@ class TestCase(unittest.TestCase):
                 {
                     'tag': 'h1',
                     'text': 'Heading 1',
-                }
+                },
             ],
             [
                 'Paragraph text',
                 {
                     'tag': 'p',
                     'text': 'Paragraph text',
-                }
+                },
             ],
         ]:
             self.assertEqual(

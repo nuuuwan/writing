@@ -14,19 +14,19 @@ This article is about how I think about solutions. If you also care about solvin
 
 Most people who say “I care about problem X” have done nothing to solve the problem. In other words, they identify with the problem and not the solution.
 
-A “**Solutionist**” (i.e. someone who abides by this manifesto’s precepts) identifies with the solution. “I care about solution Y”, they might say.
+A “Solutionist” (i.e. someone who abides by this manifesto’s precepts) identifies with the solution. “I care about solution Y”, they might say.
 
 ### 2) Individual Responsibility
 
 If you ask a “Problemist” (i.e. someone who says “I care about problem X”, but does nothing to solve it), “who is going to solve problem X?” the answer is always someone else. Often the government, or the municipality, or Dialog, or Ratnapala’s cousin’s mother-in-law. Anything and anyone, up to and including the kitchen sink, but not “me”.
 
-A **Solutionist** considers it their individual responsibility to solve the problem. They might get help from others or play a supporting role to a more involved solutionist. But, for them, it is still “my problem”. And “nothing is someone else’s problem”.
+A Solutionist considers it their individual responsibility to solve the problem. They might get help from others or play a supporting role to a more involved solutionist. But, for them, it is still “my problem”. And “nothing is someone else’s problem”.
 
 ### 3) Skin in the Game
 
 There are industries devoted to the well-being of Problemists. Many Problemists are professional Problemists who get paid for saying stuff like “X is a serious problem”.
 
-More information about problems is always helpful, but solutions are not a priority for many of these **problem**-industrial**ists**. Hence, the problemists are part of the problem. Not the solution.
+More information about problems is always helpful, but solutions are not a priority for many of these problem-industrialists. Hence, the problemists are part of the problem. Not the solution.
 
 Solutionists, on the other hand, have skin-in-the-game in the quest for a solution. They align their well-being and sense of success with the solution. They never profit from problems.
 
@@ -36,7 +36,7 @@ In theory, in a perfect representative democracy, it is sufficient to alert your
 
 Hence, if you think it is sufficient to petition the powers that be about a problem or threaten not to vote for them, or just talk a lot about how they should solve the problem, you’re not a Solutionist; because you’ve already broken the “Individual Responsibility” precept.
 
-While a Solutionist takes representative democracy seriously, they also take other measures to solve the problem. One of the most potent tactics is in a [“flawed” democracy](https://en.wikipedia.org/wiki/Democracy_Index) like Sri Lanka is to do whatever is needed independent of official representatives. Planting a single tree in your backyard is better than complaining to your neighbour about all the trees at Sinharaja.
+While a Solutionist takes representative democracy seriously, they also take other measures to solve the problem. One of the most potent tactics is in a “flawed” democracy like Sri Lanka is to do whatever is needed independent of official representatives. Planting a single tree in your backyard is better than complaining to your neighbour about all the trees at Sinharaja.
 
 ### 5) Baby Steps
 
@@ -52,6 +52,6 @@ There are many times when I’m not silent when discussing corruption; usually w
 
 Also, I must confess a weakness. I have a terrible habit of prematurely jumping to conclusions about people. I might have “classified” you as a “Problemist” when you’re a card-carrying “Solutionist”; perhaps even one more willing and able than yours truly.
 
-If that is the case, **please let me know**. Tell me how you identify with solutions, how you’ve taken responsibility for seeing them through, how you have your skin in the solution, etc. And how I might be able to help. It might be the beginning of something big (in baby steps of course)…
+If that is the case, please let me know. Tell me how you identify with solutions, how you’ve taken responsibility for seeing them through, how you have your skin in the solution, etc. And how I might be able to help. It might be the beginning of something big (in baby steps of course)…
 
 Solutionists of Sri Lanka unite!

@@ -14,9 +14,9 @@ def md_line_to_docjson(line):
     text = line
     for i in range(1, 10):
         header_text = ('#' * (i)) + ' '
-        if line[:i + 1] == header_text:
+        if line[: i + 1] == header_text:
             tag = 'h%d' % i
-            text = line[i + 1:]
+            text = line[i + 1 :]
             break
 
     return {
