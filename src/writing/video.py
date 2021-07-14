@@ -1,6 +1,8 @@
 """Implements video."""
 
+import argparse
 import logging
+import os
 
 from moviepy.editor import AudioFileClip, TextClip, concatenate
 
@@ -28,12 +30,13 @@ def _break_text(text):
     )
 
 
-def md_to_video(md_file, video_file=None):
+def md_to_video(md_file, video_file=None, do_clean=True):
     if video_file is None:
         video_file = md_file.replace('.md', '.mp4')
     audio_file_base = video_file.replace('.mp4', '')
     docjson = md_to_docjson(md_file)
-    audio_files = md_to_audio(md_file, audio_file_base)
+    combined_audio_file = None
+    audio_files = md_to_audio(md_file, audio_file_base, combined_audio_file)
 
     frame_clips = []
     for d, audio_file in zip(docjson, audio_files):
@@ -56,9 +59,19 @@ def md_to_video(md_file, video_file=None):
         frame_clips.append(text_clip)
 
     video_clip = concatenate(frame_clips, method='compose')
-    video_clip.write_videofile(video_file, fps=5)
+    video_clip.write_videofile(video_file, fps=3)
     log.info('Wrote %s to %s', md_file, video_file)
+
+    if do_clean:
+        os.system('rm -rf %s*aiff*' % (audio_file_base))
+        log.info('Cleaned audio files')
 
 
 if __name__ == '__main__':
-    md_to_video('src/writing/assets/test.md', '/tmp/test.mp4')
+    parser = argparse.ArgumentParser(description='Writing-Video')
+    parser.add_argument('md-filename')
+    args = vars(parser.parse_args())
+    _md_file = args.get('md-filename')
+    file_base = _md_file.split('/')[-1].replace('.md', '')
+    _video_file_name = '/Users/nuwan.senaratna/Desktop/%s.mp4' % file_base
+    md_to_video(_md_file, _video_file_name)

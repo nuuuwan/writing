@@ -3,8 +3,9 @@
 
 ## Release History
 
-### 1.0.0 (PRE-RELEASE ONLY)
+### 1.0.0
 * Translate text and translate MD
+* Convert MD to Audio and Video
 
 ...
 

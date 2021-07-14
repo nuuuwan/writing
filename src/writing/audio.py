@@ -57,7 +57,7 @@ def md_to_audio(md_file, audio_file_base, combined_audio_file):
                 'com.apple.speech.synthesis.voice.Daniel',
             )
 
-        audio_file = '%s.%04d.aif' % (audio_file_base, i)
+        audio_file = '%s.%04d.aiff' % (audio_file_base, i)
         log.info('Saving to %s', audio_file)
         engine.save_to_file(text, audio_file)
         audio_files.append(audio_file)
@@ -65,7 +65,6 @@ def md_to_audio(md_file, audio_file_base, combined_audio_file):
 
     if combined_audio_file:
         combine_audios(audio_files, combined_audio_file)
-
     return audio_files
 
 
