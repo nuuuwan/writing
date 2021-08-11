@@ -16,3 +16,4 @@ pip install writing-nuuuwan
 ```
 
 *The source code for this library can be found at https://github.com/nuuuwan/writing.*
+  * echo 10 26 244 src/writing/word_count.py
